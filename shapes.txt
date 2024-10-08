@@ -1,4 +1,0 @@
-Square: x=2, y=3, side=5
-Rectangle: x=2, y=3, width=4, height=6
-Circle: x=2, y=3, radius=5
-Ellipse: x=2, y=3, width=10, height=15

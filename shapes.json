@@ -1,8 +1,0 @@
-{"type": "Square", "x": 0, "y": 0, "side": 5}
-{"type": "Rectangle", "x": 1, "y": 1, "width": 4, "height": 2}
-{"type": "Circle", "center_x": 3, "center_y": 3, "radius": 2}
-{"type": "Ellipse", "x": 4, "y": 4, "width": 6, "height": 3}
-{"type": "Square", "x": 0, "y": 0, "side": 5}
-{"type": "Rectangle", "x": 1, "y": 1, "width": 4, "height": 2}
-{"type": "Circle", "center_x": 3, "center_y": 3, "radius": 2}
-{"type": "Ellipse", "x": 4, "y": 4, "width": 6, "height": 3}
