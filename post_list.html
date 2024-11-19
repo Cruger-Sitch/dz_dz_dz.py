@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Мой блог</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        ul {
+            list-style-type: none;  /* Убирает маркеры списка */
+            padding: 0;
+        }
+
+        li {
+            background: #fff; /* Белый фон для каждого элемента списка */
+            margin-bottom: 10px; /* Пробел между элементами списка */
+            padding: 15px; /* Внутренний отступ */
+            border-radius: 5px; /* Закругление углов */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для выделения */
+        }
+
+        strong {
+            color: #555; /* Цвет для текстов с <strong> */
+        }
+    </style>
+</head>
+<body>
+<h1> Утвержденные методики поэтапного исследования наркотических веществ </h1>
+<ul>
+    {%for i in posts%}
+    <li>
+        <strong>Название: </strong>{{i.title}}<br>
+        <strong>Методические указания: </strong>{{i.content}}<br>
+    </li>
+    {% endfor %}
+</ul>
+</body>
+</html>
